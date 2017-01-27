@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Exercise 2</title>
+</head>
+<body>
+	<script>
+
+
+		// write a program to console.log the birthdays of each record in input (e.g. jan11)
+		// make sure your program works no matter how many records are in the input
+
+
+		var input = [
+			"erty:seidohl:jan11:codecraft",
+			"dave:gray:sep16:codecraft",
+			"sarah:hyunh:apr6:codecraft"
+		];
+
+
+		for (var i of input){
+			var splitInput = i.split(":");
+			var bday = splitInput[2];
+			console.log(bday);
+
+		}
+
+
+	</script>
+
+</body>
+</html>
